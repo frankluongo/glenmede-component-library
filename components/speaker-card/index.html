@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../assets/styles/reset.css" />
+    <link rel="stylesheet" href="../../assets/styles/global.css" />
+    <link rel="stylesheet" href="./speaker-card.css" />
+    <title>Speaker Tile</title>
+  </head>
+  <body>
+    <article class="speaker-card" data-id="speaker-card" tabindex="1">
+      <figure class="speaker-card__image-wrapper">
+        <img
+          alt="Ken Spruill"
+          class="speaker-card__image"
+          src="../../assets/photos/Ken Spruill_crop.webp"
+        />
+      </figure>
+      <footer class="speaker-card__footer">
+        <h3
+          class="speaker-card-footer__title font-family:heading font-size:large"
+        >
+          Kenneth E. Spruill Jr., CAP
+        </h3>
+        <hr class="speaker-card-footer__divider" />
+        <div class="speaker-card-footer__reveal">
+          <p class="speaker-card-footer__description font-size:large">
+            Director of the Center for Family Philanthropy and Wealth Education
+          </p>
+        </div>
+      </footer>
+    </article>
+    <script src="./speaker-card.js"></script>
+    <script src="../../assets/scripts/global.js"></script>
+  </body>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+
+      padding: clamp(1rem, 30vw, 4rem);
+    }
+  </style>
+</html>
